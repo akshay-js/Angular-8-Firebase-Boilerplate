@@ -1,0 +1,24 @@
+<div class="displayTable">
+  <div class="displayTableCell">
+
+    <div class="px-logo">
+
+    </div>
+
+    <div class="authBlock">
+      <h3>Reset Password</h3>
+
+      <div class="formGroup">
+        <input type="password" class="formControl" placeholder="New Password" #userEmail required>
+      </div>
+
+      <div class="formGroup">
+        <input type="password" class="formControl" placeholder="Confirm Password" #userPwd required>
+      </div>
+
+      <div class="formGroup">
+        <input type="button" class="btn btnPrimary" value="Sign Up" (click)="resetPassword(userEmail.value, userPwd.value)">
+      </div>
+  </div>
+
+</div>
